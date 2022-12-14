@@ -3,6 +3,7 @@ import './App.css';
 import Greeting from './components/pure/greeting';
 import GreetingF from './components/pure/greetingF';
 import TaskListComponent from './components/container/taskListComponent';
+import ContactListComponent from './components/container/contactListComponent';
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         {/* componente propio Gretings.jsx */}
         {/* <GreetingF name="Ales"></GreetingF> */}
-        <TaskListComponent></TaskListComponent>
+        <ContactListComponent></ContactListComponent>
       </header>
     </div>
   );
